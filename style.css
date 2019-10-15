@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+background-color: #0e325a;
+height: 400px;
+position: relative;
+}
+.container{
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+}
+#navbar{
+  height: 80px;
+}
+.nav_left{
+  width: 60%;
+  float: left;
+  height: 80px;
+}
+#logo{
+  float: left;
+}
+#logo a{
+line-height: 80px;
+  display: inline-block;
+
+}
+#logo img{
+vertical-align:middle;
+margin-right: 50px;
+float: left;
+}
+#main_menu{
+  float: left;
+}
+#main_menu ul{
+  list-style-type: none;
+}
+#main_menu li{
+  float: left;
+}
+#main_menu li a{
+  line-height: 80px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 16px 8px;
+}
+#main_menu li a:hover{
+  color: orange
+}
+.nav_right{
+  width: 40%;
+  float: right;
+  height: 80px;
+}
+.cta_container{
+  float: right;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 16px 8px;
+  margin-right: 18px;
+}
+.cta_container a{
+  color: white;
+  margin-right: 8px;
+
+}
+#tutor_link{
+  color: rgba(240, 240, 240, 0.5);
+
+}
+#login_button{
+  border:1px solid #4e8cb6;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 8px;
+}
+#piano_button{
+  border-radius: 5px;
+  border:2px solid #7fb832;
+  padding: 4px;
+  color: white;
+  background-color: #7fb832;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 8px;
+
+}
+button{
+  cursor: pointer;
+}
+.cta_button{
+  border-radius: 5px;
+  border:2px solid #7fb832;
+  padding: 4px;
+  color: white;
+  background-color: #7fb832;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#jumbo{
+  width: 50%;
+  margin: 40px;
+
+  }
+  #jumbo h1
+{
+  font-size: 45px;
+  color: white;
+  margin-bottom: 35px;
+
+}
+#jumboimg img{
+  position: absolute;
+  width: 750px;
+  right: 0px;
+  bottom: 0px;
+
+
+}
